@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown with Links</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        select {
+            font-size: 16px;
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <label for="linkDropdown">Choose a document:</label>
+
+        <select id="linkDropdown" onchange="openLink(this.value)">
+            <option value="">-- Select Here --</option>
+            <option value="PDF/faq-e-commerc.pdf">E-Commerce</option>
+            <option value="PDF/Policy Initiatives for MSME Sector.pdf">MSME</option>
+            <option value="PDF/FoodProcessing.pdf">Food Processing</option>
+            <option value="PDF/Export.pdf">Export</option>
+            <option value="PDF/Textiles.pdf">Textiles</option>
+            <option value="PDF/DrugAndPharma.pdf">Drug and Pharmaceutical</option>
+            <option value="PDF/Handicraft.pdf">Handicraft</option>
+        </select>
+    </div>
+
+    <script>
+        function openLink(value) {
+            if (value) {
+                window.open(value, '_blank'); // opens link in a new tab
+            }
+        }
+    </script>
+</body>
+
+</html>
