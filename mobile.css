@@ -169,7 +169,7 @@ img {
     background-color: #083c74;
     padding: 450px 20px;
     text-align: center;
-    margin-top:200px;
+    
 }
 
 .click-btn {
@@ -182,6 +182,7 @@ img {
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    margin-top:200px;
 }
 
 .click-btn:hover {
@@ -229,6 +230,7 @@ img {
     font-size: 16px;
 
 }
+
 
 
 
