@@ -174,7 +174,7 @@ img {
 .click-btn {
     background-color: #fff;
     color: #083c74;
-    padding: 105px 200px;
+    padding: 105px 100px;
     border-radius: 10px;
     font-size: 5rem;
     font-weight: 600;
@@ -226,4 +226,5 @@ img {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+
 }
