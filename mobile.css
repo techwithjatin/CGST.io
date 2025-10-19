@@ -18,6 +18,20 @@ body {
 
 }
 
+.header2 {
+    padding: 10px;
+    background: #086ef5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header2 h1 {
+    text-align: center;
+    margin-top: 170px;
+}
+
 /* Header Section */
 .header1 {
     background-color: #083c74;
@@ -212,4 +226,5 @@ img {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+
 }
